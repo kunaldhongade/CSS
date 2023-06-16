@@ -1,0 +1,63 @@
+/* Universal selector */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* selecting all the elements */
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 22px;
+}
+
+/* all elements inherits from body */
+body {
+    /* this is not inherited */
+    /* border: 3px solid black; */
+}
+
+/* inheritance is a way when another element inheritance property from it */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+main {
+    font-family: monospace;
+}
+
+/* this selector use as group selector for all h1 and h2 */
+h1,
+h2 {
+    color: blue;
+}
+
+/* this selector is looking for any h2 that exist inside h1 (nested) */
+h1 h2 {
+    color: red;
+}
+
+p {
+    color: purple;
+}
+
+/* this select span inside p */
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.highlight {
+    text-transform: capitalize;
+    background-color: aqua;
+}
+
+.gray {
+    color: gray;
+}
+
+/* id must be unique */
+#second {
+    font-style: italic;
+}
