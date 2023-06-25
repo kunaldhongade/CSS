@@ -5,6 +5,7 @@ body {
     font-size: 1.5rem;
 }
 
+/* without flex box / grid */
 .columns {
     /* column-count: 4;
     column-width: 250px; */
@@ -26,10 +27,14 @@ body {
     break-before: column;
 }
 
-.quote {
+.columns .quote {
     margin-top: 3rem;
     font-size: 3rem;
     text-align: center;
     color: #333;
     column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
