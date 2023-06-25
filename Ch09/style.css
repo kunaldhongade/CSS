@@ -37,7 +37,10 @@ section {
     background-color: bisque;
     border: 1px solid #333;
     padding: 1rem;
-    /* overflow: auto; in the past */
-    display: flow-root;
+
+    /*in the past */
+    /* overflow: auto; */
+
     /* this is modern css */
+    display: flow-root;
 }
