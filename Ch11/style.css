@@ -17,6 +17,7 @@ body {
     width: 75vw;
     height: 85vh;
     margin: 40px auto;
+    position: relative;
 }
 
 .inner-container {
@@ -24,6 +25,8 @@ body {
     width: 40vw;
     height: 50vh;
     margin: 20vh auto;
+    position: relative;
+    /* it picks the closest one to work with  */
 }
 
 .box {
@@ -35,6 +38,8 @@ body {
 
 .absolute {
     background-color: #00f;
-    position: static;
+    position: absolute;
     top: 0;
+    left: 0;
+
 }
