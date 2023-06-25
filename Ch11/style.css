@@ -18,3 +18,23 @@ body {
     height: 85vh;
     margin: 40px auto;
 }
+
+.inner-container {
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 20vh auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.absolute {
+    background-color: #00f;
+    position: static;
+    top: 0;
+}
