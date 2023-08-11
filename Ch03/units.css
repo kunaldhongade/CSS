@@ -30,4 +30,5 @@
     border-radius: 50%;
     outline: 2px solid red;
     outline-offset: 0.5rem;
+    /* this means outer border */
 }

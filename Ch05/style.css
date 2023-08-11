@@ -21,7 +21,7 @@ a:hover,
 a:focus {
     /* color: rgb(148, 147, 147); */
     opacity: 0.5;
-    background-color: gold;
+    color: hsla(0, 0%, 0%, 0.507);
 }
 
 a:active {
